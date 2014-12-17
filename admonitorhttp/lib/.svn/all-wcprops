@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Autosvn/!svn/ver/57279/adplatform/trunk/admonitorHttp/admonitorhttp/lib
+END
+jetty-continuation-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-continuation-9.2.2.v20140723.jar
+END
+jetty-webapp-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-webapp-9.2.2.v20140723.jar
+END
+jetty-proxy-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-proxy-9.2.2.v20140723.jar
+END
+jetty-plus-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-plus-9.2.2.v20140723.jar
+END
+jetty-jndi-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-jndi-9.2.2.v20140723.jar
+END
+jetty-servlet-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-servlet-9.2.2.v20140723.jar
+END
+jetty-schemas-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-schemas-3.1.jar
+END
+jetty-quickstart-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-quickstart-9.2.2.v20140723.jar
+END
+admonitor-1.0-SNAPSHOT.jar
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Autosvn/!svn/ver/56111/adplatform/trunk/admonitorHttp/admonitorhttp/lib/admonitor-1.0-SNAPSHOT.jar
+END
+commons-collections-3.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Autosvn/!svn/ver/57275/adplatform/trunk/admonitorHttp/admonitorhttp/lib/commons-collections-3.2.1.jar
+END
+jetty-deploy-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-deploy-9.2.2.v20140723.jar
+END
+jetty-annotations-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-annotations-9.2.2.v20140723.jar
+END
+jetty-alpn-client-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-alpn-client-9.2.2.v20140723.jar
+END
+jetty-security-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-security-9.2.2.v20140723.jar
+END
+jetty-io-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-io-9.2.2.v20140723.jar
+END
+jetty-util-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-util-9.2.2.v20140723.jar
+END
+jetty-jaas-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-jaas-9.2.2.v20140723.jar
+END
+jetty-client-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-client-9.2.2.v20140723.jar
+END
+jetty-http-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-http-9.2.2.v20140723.jar
+END
+jetty-rewrite-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-rewrite-9.2.2.v20140723.jar
+END
+ezmorph-1.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Autosvn/!svn/ver/57275/adplatform/trunk/admonitorHttp/admonitorhttp/lib/ezmorph-1.0.6.jar
+END
+admonitor-1.1-SNAPSHOT.jar
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Autosvn/!svn/ver/57602/adplatform/trunk/admonitorHttp/admonitorhttp/lib/admonitor-1.1-SNAPSHOT.jar
+END
+apache-jstl-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/apache-jstl-9.2.2.v20140723.jar
+END
+jetty-alpn-server-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-alpn-server-9.2.2.v20140723.jar
+END
+jetty-jmx-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-jmx-9.2.2.v20140723.jar
+END
+json-lib-2.4-jdk15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Autosvn/!svn/ver/57275/adplatform/trunk/admonitorHttp/admonitorhttp/lib/json-lib-2.4-jdk15.jar
+END
+servlet-api-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/servlet-api-3.1.jar
+END
+jetty-xml-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-xml-9.2.2.v20140723.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Autosvn/!svn/ver/57275/adplatform/trunk/admonitorHttp/admonitorhttp/lib/commons-logging-1.1.1.jar
+END
+commons-lang-2.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Autosvn/!svn/ver/57275/adplatform/trunk/admonitorHttp/admonitorhttp/lib/commons-lang-2.5.jar
+END
+jetty-server-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-server-9.2.2.v20140723.jar
+END
+jetty-jaspi-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-jaspi-9.2.2.v20140723.jar
+END
+jetty-servlets-9.2.2.v20140723.jar
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/lib/jetty-servlets-9.2.2.v20140723.jar
+END
+commons-beanutils-1.8.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Autosvn/!svn/ver/57275/adplatform/trunk/admonitorHttp/admonitorhttp/lib/commons-beanutils-1.8.0.jar
+END

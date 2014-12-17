@@ -1,0 +1,2 @@
+* * * * * cd /home/hongbin/jsoncpp/myshell/; sh 5.sh >> 5.sh.log
+* * * * * cd /home/hongbin/jsoncpp/myshell/; date +\%s >> 5.sh.log

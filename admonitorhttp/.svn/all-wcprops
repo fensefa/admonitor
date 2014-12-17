@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Autosvn/!svn/ver/57599/adplatform/trunk/admonitorHttp/admonitorhttp
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Autosvn/!svn/ver/55981/adplatform/trunk/admonitorHttp/admonitorhttp/.classpath
+END
+compile.sh
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Autosvn/!svn/ver/56111/adplatform/trunk/admonitorHttp/admonitorhttp/compile.sh
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Autosvn/!svn/ver/55879/adplatform/trunk/admonitorHttp/admonitorhttp/.project
+END
+run.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/Autosvn/!svn/ver/56111/adplatform/trunk/admonitorHttp/admonitorhttp/run.sh
+END

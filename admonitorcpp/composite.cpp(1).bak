@@ -1,0 +1,116 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <cstdio>
+#include <cstdlib>
+#include <json/json.h>
+#include "jsoncompute.h"
+using namespace std;
+
+void getRule(const char*, Json::Value &);
+	
+int main(int argc, char **argv)
+{
+	Json::Value root;
+	Json::Value rule;
+	Json::Reader reader;
+	Json::FastWriter writer;
+	string line;
+
+	Json::Value rule2;
+	getRule(argv[1],rule);
+
+	string suffix[10] = {"m0","m1","m2","m6","m12","h1","h2","h6","h12","d1"};
+	for(int i=0;i<10;i++)
+	{
+		Json::Value composite;
+		Json::Value data;
+		ofstream output(("composite" + suffix[i] + ".txt").c_str());
+
+		for(int j=2;j<argc;j++)
+		{
+			string module = argv[j];
+			ifstream input((module + suffix[i] + ".txt").c_str());
+			int k = 0;
+			while(getline(input,line))
+			{
+				reader.parse(line,root);
+				data[module][k] = root;
+				k++;
+			}
+		}
+		for(int j=0;j<rule.size();j++)
+		{
+			string kpiname = rule[j]["kpi_name"].asString();
+			string module1 = rule[j]["rule"][1][0].asString();
+			string kpiname1 = rule[j]["rule"][1][1].asString();
+			string module2 = rule[j]["rule"][2][0].asString();
+			string kpiname2 = rule[j]["rule"][2][1].asString();
+			string kpiop = rule[j]["rule"][0].asString();
+
+			Json::Value kpi1,kpi2,kpi3,kpis1,kpis2;
+			int base;
+			for(int k=0;k<data[module1].size();k++)
+			{
+				kpis1 = data[module1][k]["kpis"];
+				for(int l=0;l<kpis1.size();l++)
+				{
+					if(kpis1[l]["kpi_name"] == kpiname1)
+						kpi1 = kpis1[l];
+				}
+				if(module2 != "CONST")
+				{
+					kpis2 = data[module2][k]["kpis"];
+					for(int l=0;l<kpis2.size();l++)
+					{
+						if(kpis2[l]["kpi_name"] == kpiname2)
+							kpi2 = kpis2[l];
+					}
+					kpi3 = kpiCompute(kpiname,kpiop,kpi1,kpi2);
+				}
+				else
+				{
+					base = atoi(kpiname2.c_str());
+					kpi3 = kpiCompute(kpiname,kpiop,kpi1,base);
+				}
+				if(module1 == module2 || module2 == "CONST")
+				{
+					data[module1][k]["kpis"].append(kpi3);
+				}
+				else
+				{
+					composite[k]["kpis"].append(kpi3);
+					composite[k]["time"] = data[module1][k]["time"];
+				}
+			}
+			if(module1 == module2 || module2 == "CONST")
+			{
+				ofstream output((module1 + suffix[i] + ".txt").c_str());
+				for(int k=0;k<data[module1].size();k++)
+				{
+					output << writer.write(data[module1][k]);
+				}
+			}
+		}
+		for(int k=0;k<composite.size();k++)
+			output << writer.write(composite[k]);
+	}
+	return 0;
+}
+
+void getRule(const char* filename, Json::Value &rule)
+{
+	Json::Reader reader;
+	Json::Value root;
+	string line;
+	ifstream input(filename);
+	for(int i=0;i<6;i++)
+		getline(input,line);
+	rule.clear();
+	while(getline(input,line))
+	{
+		reader.parse(line,root);
+		rule.append(root);
+		getline(input,line);
+	}
+}

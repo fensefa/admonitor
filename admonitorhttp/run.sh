@@ -1,0 +1,2 @@
+java -cp ./src:lib/jetty-servlet-9.2.2.v20140723.jar:lib/jetty-server-9.2.2.v20140723.jar:lib/jetty-util-9.2.2.v20140723.jar:lib/servlet-api-3.1.jar:lib/jetty-http-9.2.2.v20140723.jar:lib/jetty-io-9.2.2.v20140723.jar:lib/admonitor-1.1-SNAPSHOT.jar:lib/commons-beanutils-1.8.0.jar:lib/log4j-1.2.17.jar:lib/commons-collections-3.2.1.jar:lib/commons-lang-2.5.jar:lib/commons-logging-1.1.1.jar:lib/ezmorph-1.0.6.jar:lib/json-lib-2.4-jdk15.jar: admonitorHttp.admonitorHttp
+
